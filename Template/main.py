@@ -32,5 +32,5 @@ if __name__ == "__main__":
     path2 = "inputs/part2.txt"
     if os.path.exists(path2):
         print(f"\nPart2:")
-        solutions = solve(part2, puzzle_input=pathlib.Path(path1).read_text().strip())
+        solution = solve(part2, puzzle_input=pathlib.Path(path2).read_text().strip())
         print(str(solution))
