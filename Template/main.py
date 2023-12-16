@@ -8,12 +8,12 @@ def parse_data(puzzle_input):
     """Parse input."""
     return collections.Counter(puzzle_input.split("\n"))
 
-def part1(rounds):
+def part1(lines):
     """Solve part 1."""
     return None
 
 
-def part2(rounds):
+def part2(lines):
     """Solve part 2."""
     return None
 
